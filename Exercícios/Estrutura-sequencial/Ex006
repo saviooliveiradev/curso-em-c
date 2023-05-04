@@ -1,0 +1,17 @@
+/*Faça um programa que receba o salário-base 
+de um funcionário, calcule e mostre o salário a receber, sabendo-se que esse funcionário 
+tem gratificação de 5% sobre o salário-base e paga imposto de 7% sobre o salário-base.*/
+
+#include <stdio.h>
+
+int main(){
+    float sal_base, gratificacao, imposto;
+
+    prinft("Insira o salario base:\n");
+    scanf("%f", &sal_base);
+
+    gratificacao = (sal_base * 5) /100;
+    imposto = (gratificacao * 0.7) - gratificacao;
+
+    printf("Salario a receber: %.2f.\n", imposto);
+}
