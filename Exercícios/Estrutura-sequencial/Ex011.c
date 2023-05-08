@@ -13,8 +13,10 @@ int main(){
     scanf("%f", &segundos);
 
     horas = segundos / 3600;
+    segundos = segundos - (3600*horas);
+    
     minutos = segundos / 60;
-    segundos = segundos;
+    segundos = segundos - (60*minutos);
 
     printf("Horas: %.2f.\n", horas);
     printf("Minutos: %.2f.\n", minutos);
