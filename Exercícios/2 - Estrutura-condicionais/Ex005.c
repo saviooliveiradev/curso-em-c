@@ -7,7 +7,7 @@ conseguirá processar dois números inteiros por vez.*/
 
 int main(){
     
-    float n1, n2, soma, subtrair, multiplicar, dividir, n;
+    float n1, n2, r;
 
     printf(texto);
 
@@ -21,9 +21,9 @@ int main(){
     printf("2 - subtrair.");
     printf("3 - multiplicar");
     printf("4 - dividir.");
-    scanf("%f", &n);
+    scanf("%f", &r);
 
-    switch (n){
+    switch (r){
     case 1:
         printf("Somar: %f.\n", n1 + n2);
         break;
@@ -36,7 +36,7 @@ int main(){
     case 4:
         printf("Dividir: %f.\n", n1 / n2 );
         break;
-    default 5:
+    default:
         printf("Opcao invalida");
         break;
     }
