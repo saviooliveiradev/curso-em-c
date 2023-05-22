@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     ant1 = 1;
     ant2 = 0;
 
-    print("Séria de Fibonacci (8 primeiros termos:\n)");
+    print("Séria de Fibonacci (8 primeiros termos:)\n");
     printf("%d", ant2);
     printf("%d", ant1);
 
