@@ -3,14 +3,24 @@ e 10 (inclusive).
 */
 
 #include <stdio.h>
-    int main(){
+#include <stdlib.h>
+#include <locale.h>
+
+int main(Int argc, char *argc[]) {
+
+    setlocale(LC_ALL, "Portuguese");
+
     int soma, i;
+
     soma = 0;
-    i = 1;
-    
-    while(i<=10){
-        soma = soma + i; //soma += i
-        i = i + 1; // i++
+
+    for(i=1; i<=10; i++){
+        soma = soma + i;
     }
-    printf("Somatório: %d.\n", soma);
+
+    printf("Soma: %d.\n", soma);
+
+    system("pause"); 
+
+    return 0;
 }
