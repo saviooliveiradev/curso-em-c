@@ -17,7 +17,7 @@ int main(){
 
     printf("Impressão de posiçao a posição:\n");
     for(i=0; i<strlen(s); i++){
-        printf(%c, s[i]); //%c = caracter
+        printf(%c, s[i]); //%c = caracter.
     }
 
 }
