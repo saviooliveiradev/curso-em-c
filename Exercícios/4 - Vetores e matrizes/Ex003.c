@@ -30,7 +30,7 @@ int main(int argc, char const *argv[]){
     }
 
     if(!achou){
-        printf("Chave n~~ao encontrada.\n");
+        printf("Chave não encontrada.\n");
     } else {
         printf("Chave encontrada na posição %d.\n", p+1;)
     }
