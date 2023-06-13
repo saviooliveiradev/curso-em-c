@@ -17,5 +17,9 @@ int main(int argc, char const *argv[]){
 
     printf("Conteúdo divido por 100:\n");
 
+    for(i=0; i<5; i++){
+        printf("%f", vet[i];)
+    }
+
     return 0;
 }
